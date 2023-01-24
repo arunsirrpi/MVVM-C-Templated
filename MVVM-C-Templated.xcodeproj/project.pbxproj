@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		BF71A955297FE0A100CBDFEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A954297FE0A100CBDFEB /* AppDelegate.swift */; };
 		BF71A957297FE0A100CBDFEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A956297FE0A100CBDFEB /* SceneDelegate.swift */; };
-		BF71A959297FE0A100CBDFEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A958297FE0A100CBDFEB /* ViewController.swift */; };
-		BF71A95C297FE0A100CBDFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF71A95A297FE0A100CBDFEB /* Main.storyboard */; };
+		BF71A959297FE0A100CBDFEB /* ReusableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A958297FE0A100CBDFEB /* ReusableDemoViewController.swift */; };
 		BF71A95E297FE0A500CBDFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF71A95D297FE0A500CBDFEB /* Assets.xcassets */; };
 		BF71A961297FE0A500CBDFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF71A95F297FE0A500CBDFEB /* LaunchScreen.storyboard */; };
 		BF71A96C297FE0A500CBDFEB /* MVVM_C_TemplatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A96B297FE0A500CBDFEB /* MVVM_C_TemplatedTests.swift */; };
 		BF71A976297FE0A500CBDFEB /* MVVM_C_TemplatedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A975297FE0A500CBDFEB /* MVVM_C_TemplatedUITests.swift */; };
 		BF71A978297FE0A500CBDFEB /* MVVM_C_TemplatedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A977297FE0A500CBDFEB /* MVVM_C_TemplatedUITestsLaunchTests.swift */; };
+		BF71A985297FE25F00CBDFEB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A984297FE25F00CBDFEB /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,7 @@
 		BF71A951297FE0A100CBDFEB /* MVVM-C-Templated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C-Templated.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF71A954297FE0A100CBDFEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF71A956297FE0A100CBDFEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF71A958297FE0A100CBDFEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF71A95B297FE0A100CBDFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF71A958297FE0A100CBDFEB /* ReusableDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableDemoViewController.swift; sourceTree = "<group>"; };
 		BF71A95D297FE0A500CBDFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF71A960297FE0A500CBDFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF71A962297FE0A500CBDFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		BF71A971297FE0A500CBDFEB /* MVVM-C-TemplatedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-C-TemplatedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF71A975297FE0A500CBDFEB /* MVVM_C_TemplatedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_TemplatedUITests.swift; sourceTree = "<group>"; };
 		BF71A977297FE0A500CBDFEB /* MVVM_C_TemplatedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_TemplatedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF71A984297FE25F00CBDFEB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				BF71A954297FE0A100CBDFEB /* AppDelegate.swift */,
 				BF71A956297FE0A100CBDFEB /* SceneDelegate.swift */,
-				BF71A958297FE0A100CBDFEB /* ViewController.swift */,
-				BF71A95A297FE0A100CBDFEB /* Main.storyboard */,
+				BF71A958297FE0A100CBDFEB /* ReusableDemoViewController.swift */,
 				BF71A95D297FE0A500CBDFEB /* Assets.xcassets */,
 				BF71A95F297FE0A500CBDFEB /* LaunchScreen.storyboard */,
 				BF71A962297FE0A500CBDFEB /* Info.plist */,
+				BF71A984297FE25F00CBDFEB /* Coordinator.swift */,
 			);
 			path = "MVVM-C-Templated";
 			sourceTree = "<group>";
@@ -233,7 +233,6 @@
 			files = (
 				BF71A961297FE0A500CBDFEB /* LaunchScreen.storyboard in Resources */,
 				BF71A95E297FE0A500CBDFEB /* Assets.xcassets in Resources */,
-				BF71A95C297FE0A100CBDFEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF71A959297FE0A100CBDFEB /* ViewController.swift in Sources */,
+				BF71A985297FE25F00CBDFEB /* Coordinator.swift in Sources */,
+				BF71A959297FE0A100CBDFEB /* ReusableDemoViewController.swift in Sources */,
 				BF71A955297FE0A100CBDFEB /* AppDelegate.swift in Sources */,
 				BF71A957297FE0A100CBDFEB /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF71A95A297FE0A100CBDFEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF71A95B297FE0A100CBDFEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF71A95F297FE0A500CBDFEB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +434,6 @@
 				INFOPLIST_FILE = "MVVM-C-Templated/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +461,6 @@
 				INFOPLIST_FILE = "MVVM-C-Templated/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
